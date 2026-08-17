@@ -257,7 +257,6 @@ Controls include:
 Fit
 Reset
 Fullscreen
-Export
 ```
 
 **Double-click**

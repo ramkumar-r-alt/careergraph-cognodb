@@ -1238,14 +1238,14 @@ export function SkillGraph({
               : "Fullscreen"}
           </GraphButton>
 
-          <GraphButton
+          {/* <GraphButton
             onClick={exportPng}
             disabled={exporting}
           >
             {exporting
               ? "Exporting…"
               : "Export"}
-          </GraphButton>
+          </GraphButton> */}
         </div>
       </div>
 
