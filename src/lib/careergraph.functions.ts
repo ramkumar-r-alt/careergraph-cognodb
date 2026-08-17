@@ -1,7 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
-import { healthCheck } from "./cognodb.server";
+import { healthCheck } from "./db.server";
 import { seedGraph } from "./seed.server";
 import * as repo from "./queries.server";
 

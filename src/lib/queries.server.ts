@@ -1,4 +1,4 @@
-import { runQuery } from "./cognodb.server";
+import { runQuery } from "./db.server";
 import type {
   CareerMatch,
   Company,

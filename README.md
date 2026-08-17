@@ -121,7 +121,7 @@ career_graph/
 │   │   └── ui-bits.tsx
 │   ├── lib/
 │   │   ├── careergraph.functions.ts
-│   │   ├── cognodb.server.ts
+│   │   ├── db.server.ts
 │   │   ├── graph-export.ts
 │   │   ├── queries.server.ts
 │   │   ├── seed.server.ts
@@ -339,7 +339,7 @@ npm run format
 Database access is kept server-side in:
 
 ```text
-src/lib/cognodb.server.ts
+src/lib/db.server.ts
 src/lib/queries.server.ts
 src/lib/seed.server.ts
 ```

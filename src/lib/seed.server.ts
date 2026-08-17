@@ -1,4 +1,4 @@
-import { runWrites, runQuery } from "./cognodb.server";
+import { runWrites, runQuery } from "./db.server";
 import { companies, jobs, people, prerequisiteOf, relatedTo, resources, skills } from "./seed-data.server";
 
 /**
